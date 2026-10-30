@@ -194,3 +194,4 @@ Maintains compliance trail of system mutations.
 4. `AttendanceSession(classId, subjectId, attendanceDate)`: Unique constraint index and date range scanning.
 5. `AttendanceRecord(studentId, status)`: Fast aggregation of Present, Absent, Late, Excused counts.
 6. `AuditLog(entityType, entityId, createdAt)`: Rapid audit trail filtering.
+

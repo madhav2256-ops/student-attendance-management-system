@@ -278,3 +278,4 @@ To avoid unexpected charges after the project demonstration is complete:
    - Open **EC2 Console** -> **Network & Security** -> **Elastic IPs** -> Select IP -> **Release Elastic IP addresses**.
 4. **Delete VPC**:
    - Open **VPC Console** -> Select `attendance-vpc` -> **Actions** -> **Delete VPC**.
+

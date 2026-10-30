@@ -91,3 +91,4 @@ flowchart TD
 | **`sg-attendance-rds`** (RDS) | Outbound | ALL | ALL | VPC CIDR | Internal communication |
 
 > **Security Note**: Port 5432 is strictly forbidden from being exposed to `0.0.0.0/0`. Only traffic originating from instances attached to `sg-attendance-web` is accepted by `sg-attendance-rds`.
+

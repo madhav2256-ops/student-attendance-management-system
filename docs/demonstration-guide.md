@@ -112,3 +112,4 @@ The database is pre-seeded with representative test accounts for each role:
 
 ### Q4: How is Role-Based Access Control (RBAC) enforced?
 > **Answer**: *"Authorization is strictly enforced on the server. Next.js middleware guards protected routes based on verified JWT tokens stored in HttpOnly SameSite cookies. Furthermore, every Server Action and API Route verifies the user's role and resource ownership. For example, student endpoints discard any requested `studentId` from the browser and forcefully bind the database query to the authenticated student's session profile ID."*
+
